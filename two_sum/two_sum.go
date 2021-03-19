@@ -28,9 +28,26 @@ func TwoSumMapListTraversedTwice(nums []int, target int) []int {
 		elements[n] = i
 	}
 
+	for i, n := range nums {
+		complement := target - n
+		if j, ok := elements[complement]; ok && i != j{
+			return []int{i,j}
+		}
+	}
+
 	return nil
 }
 
 func TwoSumMapSingleListTraverse(nums []int, target int) []int {
+	elements := make(map[int]int, len(nums))
+	for i, n := range nums {
+		complement := target - n
+		if j, ok := elements[complement]; ok && i != j{
+			return []int{i,j}
+		}
+
+		elements[n] = i
+	}
+
 	return nil
 }
