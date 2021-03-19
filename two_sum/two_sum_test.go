@@ -23,8 +23,8 @@ func TestTwoSum(t *testing.T) {
 			fmt.Sprintf("should return %v having nums=%v and targed=%d", tt.out, tt.nums, tt.target),
 			func(t *testing.T) {
 				resBruteForce := two_sum.TwoSumBruteForce(tt.nums, tt.target)
-				resMapListTraversedTwice := TwoSumMapListTraversedTwice(tt.nums, tt.target)
-				resSingleListTraverse := TwoSumMapSingleListTraverse(tt.nums, tt.target)
+				resMapListTraversedTwice := two_sum.TwoSumMapListTraversedTwice(tt.nums, tt.target)
+				resSingleListTraverse := two_sum.TwoSumMapSingleListTraverse(tt.nums, tt.target)
 				assert.Equal(t, resBruteForce, tt.out)
 				assert.Equal(t, resMapListTraversedTwice, tt.out)
 				assert.Equal(t, resSingleListTraverse, tt.out)
