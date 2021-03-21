@@ -38,6 +38,9 @@ func TwoSumMapListTraversedTwice(nums []int, target int) []int {
 	return nil
 }
 
+// This has
+// O(n)- time complexity, as we traverse the list twice
+// O(n) space complexity, as we're using a map, saving each value as key
 func TwoSumMapSingleListTraverse(nums []int, target int) []int {
 	elements := make(map[int]int, len(nums))
 	for i, n := range nums {
