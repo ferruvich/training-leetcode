@@ -21,7 +21,7 @@ func TestValidParenthesis(t *testing.T) {
 		{"{[]}", true},
 	} {
 		t.Run(
-			fmt.Sprintf("should return valis=%t as string is %s", tt.valid, tt.input),
+			fmt.Sprintf("should return valid=%t as string is %s", tt.valid, tt.input),
 			func(t *testing.T) {
 				res := valid_parenthesis.ValidParenthesis(tt.input)
 				assert.Equal(t, tt.valid, res)
