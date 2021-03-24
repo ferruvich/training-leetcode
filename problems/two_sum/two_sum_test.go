@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ferruvich/training-leetcode/two_sum"
+	"github.com/ferruvich/training-leetcode/problems/two_sum"
 )
 
 func TestTwoSumBruteForce(t *testing.T) {

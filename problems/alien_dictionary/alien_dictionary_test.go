@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ferruvich/training-leetcode/alien_dictionary"
+	"github.com/ferruvich/training-leetcode/problems/alien_dictionary"
 )
 
 func TestIsAlienSorted(t *testing.T) {

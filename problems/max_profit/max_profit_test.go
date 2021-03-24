@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ferruvich/training-leetcode/max_profit"
+	"github.com/ferruvich/training-leetcode/problems/max_profit"
 
 	"github.com/stretchr/testify/assert"
 )

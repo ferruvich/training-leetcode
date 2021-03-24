@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ferruvich/training-leetcode/lru_cache"
+	"github.com/ferruvich/training-leetcode/problems/lru_cache"
 )
 
 func TestLRUCache_Results(t *testing.T) {

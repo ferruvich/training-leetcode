@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ferruvich/training-leetcode/islands_number"
+	"github.com/ferruvich/training-leetcode/problems/islands_number"
 	"github.com/stretchr/testify/assert"
 )
 

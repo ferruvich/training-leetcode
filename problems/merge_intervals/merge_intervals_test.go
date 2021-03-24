@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ferruvich/training-leetcode/merge_intervals"
+	"github.com/ferruvich/training-leetcode/problems/merge_intervals"
 	"github.com/stretchr/testify/assert"
 )
 

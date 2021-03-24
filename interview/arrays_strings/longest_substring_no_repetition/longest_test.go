@@ -1,4 +1,4 @@
-package substring_no_rep_test
+package longest_substring_no_repetition_test
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ferruvich/training-leetcode/problems/substring_no_rep"
+	"github.com/ferruvich/training-leetcode/interview/arrays_strings/longest_substring_no_repetition"
 )
 
 func TestLengthOfLongestSubstring(t *testing.T) {
@@ -22,7 +22,7 @@ func TestLengthOfLongestSubstring(t *testing.T) {
 		t.Run(
 			fmt.Sprintf("should return correctly return length %d as the string is %s", tt.expectedMaxLength, tt.inputString),
 			func(t *testing.T) {
-				res := substring_no_rep.LengthOfLongestSubstring(tt.inputString)
+				res := longest_substring_no_repetition.LengthOfLongestSubstring(tt.inputString)
 				assert.Equal(t, tt.expectedMaxLength, res)
 			},
 		)

@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ferruvich/training-leetcode/valid_parenthesis"
+	"github.com/ferruvich/training-leetcode/problems/valid_parenthesis"
 )
 
 func TestValidParenthesis(t *testing.T) {

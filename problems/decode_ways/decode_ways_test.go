@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ferruvich/training-leetcode/decode_ways"
+	"github.com/ferruvich/training-leetcode/problems/decode_ways"
 	"github.com/stretchr/testify/assert"
 )
 

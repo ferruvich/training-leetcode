@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	meeting_rooms "github.com/ferruvich/training-leetcode/meeting_rooms_2"
+	meeting_rooms "github.com/ferruvich/training-leetcode/problems/meeting_rooms_2"
 )
 
 func TestMinMeetingRooms(t *testing.T) {
