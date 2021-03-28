@@ -18,7 +18,6 @@ func SimplifyPath(path string) string {
 			}
 			canonicalPath = string([]rune(canonicalPath)[:strings.LastIndex(canonicalPath, "/")])
 		default:
-			//prec = el
 			canonicalPath = fmt.Sprintf("%s/%s", canonicalPath, el)
 		}
 	}

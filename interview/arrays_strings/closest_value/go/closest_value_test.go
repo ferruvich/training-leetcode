@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ferruvich/training-leetcode/interview/arrays_strings/closest_value"
+	closest_value "github.com/ferruvich/training-leetcode/interview/arrays_strings/closest_value/go"
 )
 
 func TestClosestValue(t *testing.T) {

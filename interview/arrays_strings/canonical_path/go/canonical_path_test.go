@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ferruvich/training-leetcode/interview/arrays_strings/canonical_path"
+	canonical_path "github.com/ferruvich/training-leetcode/interview/arrays_strings/canonical_path/go"
 )
 
 func TestSimplifyPath(t *testing.T) {
