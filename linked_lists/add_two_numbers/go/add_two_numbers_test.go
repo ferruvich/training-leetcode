@@ -1,7 +1,6 @@
 package add_two_numbers_test
 
 import (
-	"fmt"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
@@ -18,10 +17,9 @@ func TestAddTwoNumbers(t *testing.T) {
 	}{
 		{[]int{2, 4, 3}, []int{5, 6, 4}, []int{7, 0, 8}},
 		{[]int{0}, []int{0}, []int{0}},
-		{[]int{9,9,9,9,9,9,9}, []int{9,9,9,9}, []int{8,9,9,9,0,0,0,1}},
+		{[]int{9, 9, 9, 9, 9, 9, 9}, []int{9, 9, 9, 9}, []int{8, 9, 9, 9, 0, 0, 0, 1}},
 	} {
-		t.Run(
-			fmt.Sprintf("should return correct sum"),
+		t.Run("should return correct sum",
 			func(t *testing.T) {
 				res := add_two_numbers.AddTwoNumbers(
 					buildLinkedList(t, tt.inputListOne),
