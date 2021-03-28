@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ferruvich/training-leetcode/problems/max_profit"
-
 	"github.com/stretchr/testify/assert"
+
+	"github.com/ferruvich/training-leetcode/problems/max_profit/go"
 )
 
 func TestMaxProfit(t *testing.T) {

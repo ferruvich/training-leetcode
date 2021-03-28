@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ferruvich/training-leetcode/problems/array_product"
+	"github.com/ferruvich/training-leetcode/problems/array_product/go"
 )
 
 func TestProductExceptSelf(t *testing.T) {
