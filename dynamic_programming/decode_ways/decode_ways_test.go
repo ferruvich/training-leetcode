@@ -2,9 +2,9 @@ package decode_ways_test
 
 import (
 	"fmt"
+	decode_ways2 "github.com/ferruvich/training-leetcode/dynamic_programming/decode_ways"
 	"testing"
 
-	"github.com/ferruvich/training-leetcode/arrays_strings/decode_ways"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -22,7 +22,7 @@ func TestNumIslands(t *testing.T) {
 		t.Run(
 			fmt.Sprintf("should return %d as the string is %s", tt.expectedResult, tt.input),
 			func(t *testing.T) {
-				res := decode_ways.NumDecodings(tt.input)
+				res := decode_ways2.NumDecodings(tt.input)
 				assert.Equal(t, tt.expectedResult, res)
 			},
 		)
