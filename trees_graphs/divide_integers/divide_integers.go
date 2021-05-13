@@ -1,4 +1,4 @@
-package trees_graphs
+package divide_integers
 
 import "math"
 
