@@ -2,11 +2,10 @@ package max_profit_test
 
 import (
 	"fmt"
+	"github.com/ferruvich/training-leetcode/dynamic_programming/max_profit/go"
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-
-	"github.com/ferruvich/training-leetcode/arrays_strings/max_profit/go"
 )
 
 func TestMaxProfit(t *testing.T) {
